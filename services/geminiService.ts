@@ -3,7 +3,7 @@ import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 import { Recipe } from '../types';
 import { GEMINI_TEXT_MODEL, GEMINI_IMAGE_MODEL } from '../constants';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 
 if (!API_KEY) {
   console.error("API_KEY environment variable not found.");
