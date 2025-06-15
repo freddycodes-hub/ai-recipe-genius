@@ -1,0 +1,5 @@
+{
+  "name": "AI Recipe Genius",
+  "description": "A smart recipe generator that creates unique dishes from your ingredients and visualizes them with AI-generated images.",
+  "requestFramePermissions": []
+}
